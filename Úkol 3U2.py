@@ -5,7 +5,7 @@ tajenka = "lokus"
 nzivotu = 3
 skore = 0
 
-''' HLOUPA VERZE 
+''' HLOUPA VERZE
 while nzivotu != 0 and skore != len(tajenka):
 #  print(nzivotu != 0)
 #ll  print(skore != len(tajenka))

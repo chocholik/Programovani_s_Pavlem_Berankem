@@ -1,0 +1,1 @@
+Úkoly které máme od Pavla z kurzu programování v Pythonu na twich.tv

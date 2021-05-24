@@ -31,10 +31,12 @@ while nzivotu != 0 and skore != max_skore: #budu prohledávat tajenku, co najdu,
                 tajenka_uhadnuto[tajenka_list.index(znak)] = pismenko
                 tajenka_list[tajenka_list.index(znak)] = False
                 skore += 1
+    elif len(znak) > 1 or not znak.isalpha():
+        print("Zadej pouze 1 písmenko")
     else:
         nzivotu -= 1
         print(f"Přišel si o život, zbývá {nzivotu}")
-    print(f"Stav:\nmáš uhádnuto {tajenka_uhadnuto}\nSkore je: {skore}\nZbává ti životů: {nzivotu}\n")
+    print(f"\nStav:\nmáš uhádnuto {tajenka_uhadnuto}\nSkore je: {skore}\nZbává ti životů: {nzivotu}\n")
 if nzivotu == 0:
   print(f"A je hotovo, přišel si o všechny životy. Dosažené skora je {skore}")
 else:

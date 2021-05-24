@@ -23,7 +23,7 @@ for i in tajenka_list: #Spočítám si max skore
         max_skore += 1
 print(f"Hledáme tuto tajenku:\n{tajenka_uhadnuto}")
 
-while nzivotu != 0 and skore != max_skore: #budu prohledávat  tajenku, co najdu, to odstraním z tajenky a ukážu to hráči
+while nzivotu != 0 and skore != max_skore: #budu prohledávat tajenku, co najdu, to odstraním z tajenky a ukážu to hráči
     znak = input("Zadej písmenko z hádanky: ").strip( ).lower()
     if znak in tajenka_list:
         for pismenko in tajenka_list:

@@ -5,7 +5,7 @@ tajenka = "lokus"
 nzivotu = 3
 skore = 0
 
-
+''' HLOUPA VERZE
 while nzivotu != 0 and skore != len(tajenka):
 #  print(nzivotu != 0)
 #ll  print(skore != len(tajenka))
@@ -20,3 +20,4 @@ if nzivotu == 0:
   print(f"A je hotovo, přišel si o všechny životy. Dosažené skora je {skore}")
 else:
   print(f"Gratuluji, vyhrál jsi. Získal jsi {skore} bodů a ještě máš {nzivotu} život(y)")
+'''

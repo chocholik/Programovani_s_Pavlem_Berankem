@@ -46,7 +46,7 @@ while nzivotu != 0 and skore != len(tajenka):
 #  print(skore != len(tajenka))
   znak = input("Zadej písmenko z hádanky: ")
   if znak in tajenka:
-    skore += tajenka.count(znak)
+    skore += tajenka.count(znak) 
     print(f"Uhadl jsi, přičtene body: {tajenka.count(znak)}, celkovy pocet bodu je {skore}")
   else:
     nzivotu -= 1
